@@ -7,7 +7,7 @@ def reverse_each_word(string)
     newarray << "#{array[count].reverse}"
     count += 1 
   end
-  newarray
+  newarray.join(" ")
 end
   
   
