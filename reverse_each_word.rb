@@ -3,7 +3,7 @@ def reverse_each_word(string)
   
   newarray = []
   count = 0
-  array.each do |element|
+  array.collect do |element|
     newarray << "#{array[count].reverse}"
     count += 1 
   end
